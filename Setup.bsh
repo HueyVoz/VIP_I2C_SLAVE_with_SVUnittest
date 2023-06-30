@@ -1,0 +1,5 @@
+export SVUNIT_INSTALL="/c/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master"
+
+  export PATH=$PATH:$SVUNIT_INSTALL"/bin"
+
+  echo $SVUNIT_INSTALL

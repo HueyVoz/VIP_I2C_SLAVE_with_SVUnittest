@@ -1,0 +1,41 @@
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do run.tcl 
+# QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+# -- Compiling package junit_xml
+# -- Compiling package svunit_pkg
+# -- Importing package junit_xml
+# -- Compiling package svunit_uvm_mock_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package svunit_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# ** Warning: C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/uvm-mock/svunit_uvm_mock_pkg.sv(22): (vlog-2275) 'svunit_uvm_mock_pkg' already exists and will be overwritten.
+# 
+# -- Compiling package svunit_uvm_mock_pkg
+# -- Compiling interface i2c_interface
+# -- Compiling package i2c_slave_driver_unit_test_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package svunit_uvm_mock_pkg
+# -- Importing package svunit_pkg
+# -- Importing package junit_xml
+# -- Compiling interface i2c_interface
+# -- Compiling module i2c_slave_driver_unit_test
+# -- Compiling module __testsuite
+# -- Compiling package _testrunner_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module testrunner
+# -- Importing package svunit_pkg
+# -- Importing package junit_xml
+# -- Importing package svunit_uvm_mock_pkg
+# 
+# Top level modules:
+# 	testrunner

@@ -1,0 +1,8 @@
+<testsuites>
+  <testsuite name="__ts">
+    <testcase classname="i2c_slave_driver_ut" name="i2c_itf_connected">
+    </testcase>
+    <testcase classname="i2c_slave_driver_ut" name="Test_write_data_from_master">
+    </testcase>
+  </testsuite>
+</testsuites>

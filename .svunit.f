@@ -1,0 +1,12 @@
++incdir+C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src
++incdir+C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/junit-xml
+C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/junit-xml/junit_xml.sv
++incdir+C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base
+C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/svunit_pkg.sv
+C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/uvm-mock/svunit_uvm_mock_pkg.sv
++incdir+C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/uvm-mock
+C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/uvm-mock/svunit_uvm_mock_pkg.sv
+C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv
++incdir+C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/.
+.__testsuite.sv
+.testrunner.sv

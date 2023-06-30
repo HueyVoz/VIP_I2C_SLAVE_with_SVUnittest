@@ -1,0 +1,350 @@
+# vsim -l run.log -lib work -c testrunner 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading sv_std.std
+# Loading work.junit_xml(fast)
+# Loading work.svunit_pkg(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.svunit_uvm_mock_pkg(fast)
+# Loading work._testrunner_sv_unit(fast)
+# Loading work.testrunner(fast)
+# Loading work.i2c_slave_driver_unit_test_sv_unit(fast)
+# Loading work.i2c_slave_driver_unit_test(fast)
+# Loading work.i2c_interface(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading C:/questasim64_10.2c/uvm-1.1d\win64\uvm_dpi.dll
+# vsim -novopt testrunner 
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.testrunner
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.svunit_uvm_mock_pkg
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.svunit_pkg
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.junit_xml
+# Loading sv_std.std
+# Loading work.junit_xml
+# Loading work.svunit_pkg
+# Loading mtiUvm.uvm_pkg
+# Loading work.svunit_uvm_mock_pkg
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work._testrunner_sv_unit
+# Loading work._testrunner_sv_unit
+# Loading work.testrunner
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.__testsuite
+# Loading work.__testsuite
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.i2c_slave_driver_unit_test
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.i2c_slave_driver_unit_test_sv_unit
+# Loading work.i2c_slave_driver_unit_test_sv_unit
+# Loading work.i2c_slave_driver_unit_test
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.i2c_interface
+# Loading work.i2c_interface
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.2c/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# INFO:  [0][__ts]: Registering Unit Test Case i2c_slave_driver_ut
+# INFO:  [0][testrunner]: Registering Test Suite __ts
+# INFO:  [0][__ts]: RUNNING
+# INFO:  [0][i2c_slave_driver_ut]: RUNNING
+# INFO:  [0][i2c_slave_driver_ut]: i2c_itf_connected::RUNNING
+# UVM_INFO @ 0: reporter [RNTST] Running test svunit_uvm_test...
+# SLAVE RUN PHASE!!
+# scl 1
+# sda 1
+# INFO:  [75][i2c_slave_driver_ut]: i2c_itf_connected::PASSED
+# INFO:  [75][i2c_slave_driver_ut]: Test_write_data_from_master::RUNNING
+# SLAVE RUN PHASE!!
+# t_hd_dat_max=3450
+# freq_scl_mode[STANDARD_MODE]=100
+# n_high = 100
+# n_low = 100
+# n_hold_data= 69
+# n_period = 200
+# input_clock_period_in_ps = 50
+# UVM_INFO i2c_slave_driver.sv(63) @ 200: slave_drv [i2c_slave_driver] Start get seq
+# ---------------------------------------------------------
+# Name                   Type                   Size  Value
+# ---------------------------------------------------------
+# i2c_slave_transaction  i2c_slave_transaction  -     @824 
+#   data_out             integral               8     'h6e 
+#   ACK_out              integral               1     'h1  
+# ---------------------------------------------------------
+# UVM_INFO i2c_slave_driver.sv(95) @ 2100: slave_drv [i2c_slave_driver] start_detection = 1
+# UVM_INFO i2c_slave_driver.sv(96) @ 2100: slave_drv [i2c_slave_driver] Success detect start condition!
+# UVM_INFO i2c_slave_driver.sv(95) @ 2100: slave_drv [i2c_slave_driver] start_detection = 1
+# UVM_INFO i2c_slave_driver.sv(96) @ 2100: slave_drv [i2c_slave_driver] Success detect start condition!
+# UVM_INFO i2c_slave_driver.sv(66) @ 2100: slave_drv [i2c_slave_driver] Start get address
+# At[9125]_Bit_address[0]=0
+# At[19125]_Bit_address[1]=1
+# At[29125]_Bit_address[2]=0
+# At[39125]_Bit_address[3]=1
+# At[49125]_Bit_address[4]=0
+# At[59125]_Bit_address[5]=1
+# At[69125]_Bit_address[6]=0
+# num_bit_of_address:7
+# UVM_INFO i2c_slave_driver.sv(126) @ 69125: slave_drv [Slave address] Address receivered Successful!!
+# UVM_INFO i2c_slave_driver.sv(127) @ 69125: slave_drv [i2c_slave_driver] Address=0101010
+# start_get_rw
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(222) @ 77550: reporter [SVUnit_test] Master_send_bit_read_write:0
+# UVM_INFO i2c_slave_driver.sv(133) @ 79125: slave_drv [i2c_slave_driver] Slave_get_bit_read_write:0
+# UVM_INFO i2c_slave_driver.sv(141) @ 87550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO i2c_slave_driver.sv(165) @ 87550: slave_drv [i2c_slave_driver] Slave read data form master
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 89125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(173) @ 94125: slave_drv [i2c_slave_driver] [0] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 104125: slave_drv [i2c_slave_driver] [1] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 114125: slave_drv [i2c_slave_driver] [2] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 124125: slave_drv [i2c_slave_driver] [3] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 134125: slave_drv [i2c_slave_driver] [4] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 144125: slave_drv [i2c_slave_driver] [5] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 154125: slave_drv [i2c_slave_driver] [6] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 164125: slave_drv [i2c_slave_driver] [7] =        0
+# UVM_INFO i2c_slave_driver.sv(176) @ 164125: slave_drv [i2c_slave_driver] data[0] = 00101010
+# UVM_INFO i2c_slave_driver.sv(141) @ 177550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 179125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(173) @ 184125: slave_drv [i2c_slave_driver] [0] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 194125: slave_drv [i2c_slave_driver] [1] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 204125: slave_drv [i2c_slave_driver] [2] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 214125: slave_drv [i2c_slave_driver] [3] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 224125: slave_drv [i2c_slave_driver] [4] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 234125: slave_drv [i2c_slave_driver] [5] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 244125: slave_drv [i2c_slave_driver] [6] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 254125: slave_drv [i2c_slave_driver] [7] =        0
+# UVM_INFO i2c_slave_driver.sv(176) @ 254125: slave_drv [i2c_slave_driver] data[1] = 00101010
+# UVM_INFO i2c_slave_driver.sv(141) @ 267550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 269125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(173) @ 274125: slave_drv [i2c_slave_driver] [0] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 284125: slave_drv [i2c_slave_driver] [1] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 294125: slave_drv [i2c_slave_driver] [2] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 304125: slave_drv [i2c_slave_driver] [3] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 314125: slave_drv [i2c_slave_driver] [4] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 324125: slave_drv [i2c_slave_driver] [5] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 334125: slave_drv [i2c_slave_driver] [6] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 344125: slave_drv [i2c_slave_driver] [7] =        0
+# UVM_INFO i2c_slave_driver.sv(176) @ 344125: slave_drv [i2c_slave_driver] data[2] = 00101010
+# UVM_INFO i2c_slave_driver.sv(141) @ 357550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 359125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(152) @ 367550: slave_drv [i2c_slave_driver] slave_send_ack : 1
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 449125: reporter [SVUnit_test] master_get_ACK=1
+# INFO:  [529100][i2c_slave_driver_ut]: Test_write_data_from_master::PASSED
+# INFO:  [529100][i2c_slave_driver_ut]: PASSED (2 of 2 tests passing)
+# 
+# INFO:  [529100][__ts]: PASSED (1 of 1 testcases passing)
+# 
+# INFO:  [529100][testrunner]: PASSED (1 of 1 suites passing) [SVUnit unreleased]
+# 1
+# Break in Module testrunner at .testrunner.sv line 40
+# Simulation Breakpoint: 1
+# Break in Module testrunner at .testrunner.sv line 40
+# MACRO ./run.tcl PAUSED at line 6
+# A time value could not be extracted from the current line
+do run.tcl
+# QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+# -- Compiling package junit_xml
+# -- Compiling package svunit_pkg
+# -- Importing package junit_xml
+# -- Compiling package svunit_uvm_mock_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package svunit_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# ** Warning: C:/Users/ADMIN/Documents/HUY/08.Unit_test/svunit_master/svunit_base/uvm-mock/svunit_uvm_mock_pkg.sv(22): (vlog-2275) 'svunit_uvm_mock_pkg' already exists and will be overwritten.
+# 
+# -- Compiling package svunit_uvm_mock_pkg
+# -- Compiling interface i2c_interface
+# -- Compiling package i2c_slave_driver_unit_test_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Importing package svunit_uvm_mock_pkg
+# -- Importing package svunit_pkg
+# -- Importing package junit_xml
+# -- Compiling interface i2c_interface
+# -- Compiling module i2c_slave_driver_unit_test
+# -- Compiling module __testsuite
+# -- Compiling package _testrunner_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module testrunner
+# -- Importing package svunit_pkg
+# -- Importing package junit_xml
+# -- Importing package svunit_uvm_mock_pkg
+# 
+# Top level modules:
+# 	testrunner
+# vsim -l run.log -lib work -c testrunner 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading sv_std.std
+# Loading work.junit_xml(fast)
+# Loading work.svunit_pkg(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.svunit_uvm_mock_pkg(fast)
+# Loading work._testrunner_sv_unit(fast)
+# Loading work.testrunner(fast)
+# Loading work.i2c_slave_driver_unit_test_sv_unit(fast)
+# Loading work.i2c_slave_driver_unit_test(fast)
+# Loading work.i2c_interface(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading C:/questasim64_10.2c/uvm-1.1d\win64\uvm_dpi.dll
+# vsim -novopt testrunner 
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.testrunner
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.svunit_uvm_mock_pkg
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.svunit_pkg
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.junit_xml
+# Loading sv_std.std
+# Loading work.junit_xml
+# Loading work.svunit_pkg
+# Loading mtiUvm.uvm_pkg
+# Loading work.svunit_uvm_mock_pkg
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work._testrunner_sv_unit
+# Loading work._testrunner_sv_unit
+# Loading work.testrunner
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.__testsuite
+# Loading work.__testsuite
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.i2c_slave_driver_unit_test
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.i2c_slave_driver_unit_test_sv_unit
+# Loading work.i2c_slave_driver_unit_test_sv_unit
+# Loading work.i2c_slave_driver_unit_test
+# Refreshing C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/work.i2c_interface
+# Loading work.i2c_interface
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.2c/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# INFO:  [0][__ts]: Registering Unit Test Case i2c_slave_driver_ut
+# INFO:  [0][testrunner]: Registering Test Suite __ts
+# INFO:  [0][__ts]: RUNNING
+# INFO:  [0][i2c_slave_driver_ut]: RUNNING
+# INFO:  [0][i2c_slave_driver_ut]: i2c_itf_connected::RUNNING
+# UVM_INFO @ 0: reporter [RNTST] Running test svunit_uvm_test...
+# SLAVE RUN PHASE!!
+# scl 1
+# sda 1
+# INFO:  [75][i2c_slave_driver_ut]: i2c_itf_connected::PASSED
+# INFO:  [75][i2c_slave_driver_ut]: Test_write_data_from_master::RUNNING
+# SLAVE RUN PHASE!!
+# t_hd_dat_max=3450
+# freq_scl_mode[STANDARD_MODE]=100
+# n_high = 100
+# n_low = 100
+# n_hold_data= 69
+# n_period = 200
+# input_clock_period_in_ps = 50
+# UVM_INFO i2c_slave_driver.sv(63) @ 200: slave_drv [i2c_slave_driver] Start get seq
+# ---------------------------------------------------------
+# Name                   Type                   Size  Value
+# ---------------------------------------------------------
+# i2c_slave_transaction  i2c_slave_transaction  -     @824 
+#   data_out             integral               8     'h6e 
+#   ACK_out              integral               1     'h1  
+# ---------------------------------------------------------
+# UVM_INFO i2c_slave_driver.sv(95) @ 2100: slave_drv [i2c_slave_driver] start_detection = 1
+# UVM_INFO i2c_slave_driver.sv(96) @ 2100: slave_drv [i2c_slave_driver] Success detect start condition!
+# UVM_INFO i2c_slave_driver.sv(95) @ 2100: slave_drv [i2c_slave_driver] start_detection = 1
+# UVM_INFO i2c_slave_driver.sv(96) @ 2100: slave_drv [i2c_slave_driver] Success detect start condition!
+# UVM_INFO i2c_slave_driver.sv(66) @ 2100: slave_drv [i2c_slave_driver] Start get address
+# At[9125]_Bit_address[0]=0
+# At[19125]_Bit_address[1]=1
+# At[29125]_Bit_address[2]=0
+# At[39125]_Bit_address[3]=1
+# At[49125]_Bit_address[4]=0
+# At[59125]_Bit_address[5]=1
+# At[69125]_Bit_address[6]=0
+# num_bit_of_address:7
+# UVM_INFO i2c_slave_driver.sv(126) @ 69125: slave_drv [Slave address] Address receivered Successful!!
+# UVM_INFO i2c_slave_driver.sv(127) @ 69125: slave_drv [i2c_slave_driver] Address=0101010
+# start_get_rw
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(222) @ 77550: reporter [SVUnit_test] Master_send_bit_read_write:0
+# UVM_INFO i2c_slave_driver.sv(133) @ 79125: slave_drv [i2c_slave_driver] Slave_get_bit_read_write:0
+# UVM_INFO i2c_slave_driver.sv(141) @ 87550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO i2c_slave_driver.sv(165) @ 87550: slave_drv [i2c_slave_driver] Slave read data form master
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 89125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(173) @ 94125: slave_drv [i2c_slave_driver] [0] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 104125: slave_drv [i2c_slave_driver] [1] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 114125: slave_drv [i2c_slave_driver] [2] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 124125: slave_drv [i2c_slave_driver] [3] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 134125: slave_drv [i2c_slave_driver] [4] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 144125: slave_drv [i2c_slave_driver] [5] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 154125: slave_drv [i2c_slave_driver] [6] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 164125: slave_drv [i2c_slave_driver] [7] =        0
+# UVM_INFO i2c_slave_driver.sv(176) @ 164125: slave_drv [i2c_slave_driver] data[0] = 00101010
+# UVM_INFO i2c_slave_driver.sv(141) @ 177550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 179125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(173) @ 184125: slave_drv [i2c_slave_driver] [0] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 194125: slave_drv [i2c_slave_driver] [1] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 204125: slave_drv [i2c_slave_driver] [2] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 214125: slave_drv [i2c_slave_driver] [3] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 224125: slave_drv [i2c_slave_driver] [4] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 234125: slave_drv [i2c_slave_driver] [5] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 244125: slave_drv [i2c_slave_driver] [6] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 254125: slave_drv [i2c_slave_driver] [7] =        0
+# UVM_INFO i2c_slave_driver.sv(176) @ 254125: slave_drv [i2c_slave_driver] data[1] = 00101010
+# UVM_INFO i2c_slave_driver.sv(141) @ 267550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 269125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(173) @ 274125: slave_drv [i2c_slave_driver] [0] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 284125: slave_drv [i2c_slave_driver] [1] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 294125: slave_drv [i2c_slave_driver] [2] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 304125: slave_drv [i2c_slave_driver] [3] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 314125: slave_drv [i2c_slave_driver] [4] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 324125: slave_drv [i2c_slave_driver] [5] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 334125: slave_drv [i2c_slave_driver] [6] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 344125: slave_drv [i2c_slave_driver] [7] =        0
+# UVM_INFO i2c_slave_driver.sv(176) @ 344125: slave_drv [i2c_slave_driver] data[2] = 00101010
+# UVM_INFO i2c_slave_driver.sv(141) @ 357550: slave_drv [i2c_slave_driver] slave_send_ack : 0
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 359125: reporter [SVUnit_test] master_get_ACK=0
+# UVM_INFO i2c_slave_driver.sv(173) @ 364125: slave_drv [i2c_slave_driver] [0] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 374125: slave_drv [i2c_slave_driver] [1] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 384125: slave_drv [i2c_slave_driver] [2] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 394125: slave_drv [i2c_slave_driver] [3] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 404125: slave_drv [i2c_slave_driver] [4] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 414125: slave_drv [i2c_slave_driver] [5] =        0
+# UVM_INFO i2c_slave_driver.sv(173) @ 424125: slave_drv [i2c_slave_driver] [6] =        1
+# UVM_INFO i2c_slave_driver.sv(173) @ 434125: slave_drv [i2c_slave_driver] [7] =        0
+# UVM_INFO i2c_slave_driver.sv(176) @ 434125: slave_drv [i2c_slave_driver] data[3] = 00101010
+# UVM_INFO i2c_slave_driver.sv(152) @ 447550: slave_drv [i2c_slave_driver] slave_send_ack : 1
+# UVM_INFO C:/Users/ADMIN/Documents/HUY/08.Unit_test/00.Project/DESIGN_UVM_I2C_SLAVE_VIP/02.Src/./i2c_slave_driver_unit_test.sv(287) @ 449125: reporter [SVUnit_test] master_get_ACK=1
+# UVM_INFO i2c_slave_driver.sv(110) @ 468100: slave_drv [i2c_slave_driver] Success detect stop condition!
+# INFO:  [529100][i2c_slave_driver_ut]: Test_write_data_from_master::PASSED
+# INFO:  [529100][i2c_slave_driver_ut]: PASSED (2 of 2 tests passing)
+# 
+# INFO:  [529100][__ts]: PASSED (1 of 1 testcases passing)
+# 
+# INFO:  [529100][testrunner]: PASSED (1 of 1 suites passing) [SVUnit unreleased]
+# 1
+# Break in Module testrunner at .testrunner.sv line 40
+# Simulation Breakpoint: 1
+# Break in Module testrunner at .testrunner.sv line 40
+# MACRO ./run.tcl PAUSED at line 6
