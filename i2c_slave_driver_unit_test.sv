@@ -89,26 +89,26 @@ timeunit 1ns;
     `SVTEST_END
     //**********TEST2************//
   
-    //    `SVTEST(Test_read_data_from_master_with_nack)
-    //         mock_sequence m_seq;
-    //         i2c_slave_transaction seq;
-    //         seq = new();
-    //         m_seq = new();
-    //         fork: run
-    //           slave_drv.run_phase(null);
-    //           begin
-    //             sequencer.wait_for_grant(m_seq);
-    //             void'(seq.randomize());
-    //             sequencer.send_request(m_seq, seq);
-    //           end
-    //         join_none
-    //        send_start_condition ();
-    //         fork
-    //         repeat(46) creat_scl();
-    //            run2();
-    //        join
-    //         send_stop_condition();
-    // `SVTEST_END
+       `SVTEST(Test_read_data_from_master_with_nack)
+            mock_sequence m_seq;
+            i2c_slave_transaction seq;
+            seq = new();
+            m_seq = new();
+            fork: run
+              slave_drv.run_phase(null);
+              begin
+                sequencer.wait_for_grant(m_seq);
+                void'(seq.randomize());
+                sequencer.send_request(m_seq, seq);
+              end
+            join_none
+           send_start_condition ();
+            fork
+            repeat(46) creat_scl();
+               run2();
+           join
+            send_stop_condition();
+    `SVTEST_END
     //**********TEST3************//
   `SVTEST(Test_write_data_from_master)
       bit start_detection = 0;
@@ -131,27 +131,27 @@ timeunit 1ns;
         join
       send_stop_condition();
     `SVTEST_END
-    // // **********TEST3************//
-    // `SVTEST(Test_read_data_from_master)
-    //         mock_sequence m_seq;
-    //         i2c_slave_transaction seq;
-    //         seq = new();
-    //         m_seq = new();
-    //         fork: run
-    //           slave_drv.run_phase(null);
-    //           begin
-    //             sequencer.wait_for_grant(m_seq);
-    //             void'(seq.randomize());
-    //             sequencer.send_request(m_seq, seq);
-    //           end
-    //         join_none
-    //        send_start_condition ();
-    //         fork
-    //         repeat(46) creat_scl();
-    //            run3();
-    //        join
-    //         send_stop_condition();
-    // `SVTEST_END
+    // // **********TEST4************//
+    `SVTEST(Test_read_data_from_master)
+            mock_sequence m_seq;
+            i2c_slave_transaction seq;
+            seq = new();
+            m_seq = new();
+            fork: run
+              slave_drv.run_phase(null);
+              begin
+                sequencer.wait_for_grant(m_seq);
+                void'(seq.randomize());
+                sequencer.send_request(m_seq, seq);
+              end
+            join_none
+           send_start_condition ();
+            fork
+            repeat(46) creat_scl();
+               run3();
+           join
+            send_stop_condition();
+    `SVTEST_END
     `SVUNIT_TESTS_END
     //********RUN1***********//
     task run1();
